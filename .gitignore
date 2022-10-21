@@ -310,6 +310,7 @@ logs
 **/*.back.*
 
 # Ignore FIT/CSV containing personel data
-data/*.csv
+data/csv/*.csv
+data/fit/*.fit
 
 # End of https://www.toptal.com/developers/gitignore/api/python,flask,windows,linux,venv
