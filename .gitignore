@@ -309,10 +309,30 @@ logs
 **/*.backup.*
 **/*.back.*
 
+### yarn ###
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
 # Ignore FIT/CSV containing personel data
 data/csv/*.csv
 !data/csv/example.csv
 data/fit/*.fit
 !data/fit/example.fit
+
+# Ignore to do lsit
+*.todo
 
 # End of https://www.toptal.com/developers/gitignore/api/python,flask,windows,linux,venv
