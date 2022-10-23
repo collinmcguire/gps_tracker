@@ -1,6 +1,6 @@
 //Import modules
 import React from 'react';
-import logo from '../logo.svg'
+import logo from '../img/logo.svg'
 
 import {
   Container, Row, Col, Form, Input, Button, Navbar, Nav, NavbarBrand, NavLink, NavItem, 

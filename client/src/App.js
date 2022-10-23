@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom/client';
 
 // Import components 
 // #region
-import './App.css';
+import './css/App.css';
 import Header from './components/header';
 //#endregion
 
